@@ -2,9 +2,9 @@
   // height: 70px;
   // width: 180px !important;
   margin-left: 70px;
-  width: 5rem;
+  width: 4rem;
   height: auto;
-  // max-width: 120% !important;
+  max-width: 100% !important;
   transition: all ease-in-out 0.2s;
 }
 .main-nav {
@@ -13,6 +13,6 @@
     margin-top: -90px;
   }
 }
-a {
+ul li {
   text-decoration: none !important;
 }

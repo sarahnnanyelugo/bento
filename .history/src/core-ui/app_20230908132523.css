@@ -159,8 +159,8 @@ header {
   height: 3rem;
 }
 .logo {
-  width: 4rem;
-  height: auto;
+  /* width: 4rem;
+  height: auto; */
   max-width: 100% !important;
   transition: all ease-in-out 0.2s;
 }

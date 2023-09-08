@@ -1,11 +1,8 @@
-.logo {
+.bent-logo {
   // height: 70px;
   // width: 180px !important;
   margin-left: 70px;
-  width: 5rem;
-  height: auto;
-  // max-width: 120% !important;
-  transition: all ease-in-out 0.2s;
+  // margin-top: -90px;
 }
 .main-nav {
   height: 10px !important;
@@ -13,6 +10,6 @@
     margin-top: -90px;
   }
 }
-a {
+ul li {
   text-decoration: none !important;
 }

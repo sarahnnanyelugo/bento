@@ -14,7 +14,7 @@ export const Footer = () => {
         style={{ marginTop: "-70px", position: "relative", zIndex: 4 }}
       >
         <path
-          fill="#1D1D1D"
+          fill="#fac143"
           fill-opacity="1"
           d="M0,96L120,85.3C240,75,480,53,720,53.3C960,53,1200,75,1320,85.3L1440,96L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
         ></path>

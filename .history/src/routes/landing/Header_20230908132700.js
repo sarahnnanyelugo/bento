@@ -27,7 +27,7 @@ const Header = ({ loginModal,
           to="/"
           className="logo-styling flex-container flex-row txt-center txt-white"
         >
-          <div className="offset-2">
+          <div className="offset-lg-2">
             <img
               className="logo "
               src={logo}

@@ -27,12 +27,12 @@ const Header = ({ loginModal,
           to="/"
           className="logo-styling flex-container flex-row txt-center txt-white"
         >
-          <div className="offset-2">
+          <div className="">
             <img
-              className="logo "
+              className="bento-logo col-md-2"
               src={logo}
               alt="bento logo"
-            // width="100%"
+              // width="100%"
             /></div>
 
         </NavLink>

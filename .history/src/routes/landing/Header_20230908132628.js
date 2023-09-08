@@ -27,9 +27,9 @@ const Header = ({ loginModal,
           to="/"
           className="logo-styling flex-container flex-row txt-center txt-white"
         >
-          <div className="offset-2">
+          <div className="">
             <img
-              className="logo "
+              className="logo offset-md-2"
               src={logo}
               alt="bento logo"
             // width="100%"

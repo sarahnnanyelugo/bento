@@ -549,7 +549,7 @@ function App() {
         <Route path="/main" element={<Main />} />
       </Routes>
 
-      <Footer />
+      {/* <Footer /> */}
     </BrowserRouter>
   );
 }

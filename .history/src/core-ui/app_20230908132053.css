@@ -159,9 +159,9 @@ header {
   height: 3rem;
 }
 .logo {
-  width: 4rem;
-  height: auto;
-  max-width: 100% !important;
+  /* width: 4rem;
+  height: auto; */
+  max-width: 50% !important;
   transition: all ease-in-out 0.2s;
 }
 .logo-styling h1 {
@@ -253,6 +253,9 @@ header {
   position: relative;
   overflow-x: hidden;
   padding: 4rem;
+}
+a {
+  text-decoration: none;
 }
 
 .company-details {
