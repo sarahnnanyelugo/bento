@@ -1,0 +1,118 @@
+@import "../../variables";
+@import "../../shared-styles";
+.landing-nav {
+  background: $appcolor;
+  padding: 20px 0;
+  display: flexy;
+}
+.landing-div {
+  padding: 100px 0 0 0;
+  background: $appcolor;
+  text-align: center;
+
+  h1 {
+    font-size: 60px;
+  }
+}
+.processes-div {
+  text-align: center;
+  h6 {
+    margin-top: 5px;
+  }
+  img {
+    width: 170px;
+    aspect-ratio: auto 170 / 136;
+    height: 136px;
+    margin-top: 50px;
+  }
+  span {
+    background: $appcolor;
+  }
+}
+.countries-div {
+  background: $appcolor;
+  padding: 100px 0;
+  .countries {
+    background: #fef3da;
+    padding: 8px 0px;
+    border-radius: 20px;
+  }
+}
+.download-div {
+  text-align: center;
+  margin-top: 100px;
+  position: relative;
+  z-index: -1;
+}
+.action-div {
+  margin-top: -250px;
+}
+
+// .landing-div {
+//   position: relative;
+//   color: white;
+//   text-align: center;
+//   #container {
+//     width: 100%;
+//     position: relative;
+//     font-size: 35px;
+//     height: 500px;
+//     position: absolute;
+//     top: 70px;
+//     left: 0;
+
+//     z-index: 999;
+//   }
+//   a {
+//     position: relative;
+//     z-index: 999 !important;
+//     color: #fff;
+//     font-weight: bold;
+//     text-decoration: none;
+//   }
+//   .text-hov {
+//     position: relative;
+//     font-size: 35px;
+//     margin-right: 20px !important;
+//     border-bottom: solid 2px yellow;
+//     text-decoration: none;
+//   }
+
+//   #text:hover ~ #background {
+//     background: url("../../assets/images/landing-img5.png");
+//     transition: 1s ease;
+//   }
+//   #text2:hover ~ #background {
+//     background: url("../../assets/images/landing-img4.png");
+
+//     transition: 1s ease;
+//   }
+//   #text3:hover ~ #background {
+//     background: url("../../assets/images/landing-img3.png");
+
+//     transition: 1s ease;
+//   }
+//   #text4:hover ~ #background {
+//     background: url("../../assets/images/landing-img2.png");
+//     transition: 1s ease;
+//   }
+//   #text5:hover ~ #background {
+//     background: url("../../assets/images/landing-img6.png");
+//     transition: 1s ease;
+//   }
+
+//   #background {
+//     width: 100%;
+//     background: url("../../assets/images/landing-img1.png");
+//     background-position: center;
+//     background-size: cover !important;
+//     height: 100%;
+//     position: absolute;
+//     z-index: 2 !important;
+//     margin-top: -130px !important;
+//     background-repeat: no-repeat !important;
+//     border-radius: 0 0 40% 40%;
+//     top: 0;
+//     left: 0;
+//   }
+// }

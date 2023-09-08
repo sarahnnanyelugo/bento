@@ -1,0 +1,22 @@
+@import "../../variables";
+@import "../../shared-styles";
+.navbar-container {
+  padding: 30px 0;
+  background: $appcolor;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  // bottom: 30px;
+  .search-input {
+    border-radius: 35px;
+    border: none;
+  }
+  button {
+    @include app-btn;
+  }
+}
+.logo-div {
+  height: 40px;
+  width: 120px;
+  margin-top: -26px;
+}

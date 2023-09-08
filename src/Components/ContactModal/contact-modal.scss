@@ -1,0 +1,107 @@
+@import "../../variables";
+@import "../../shared-styles";
+.gs-btn {
+  // @include get-started-button;
+}
+
+// .modal-backdrop {
+//   --bs-backdrop-bg: red;
+// }
+.modal-backdrop-purple {
+  --bs-backdrop-bg: #4a13b24d !important;
+  --bs-backdrop-opacity: 1 !important;
+}
+.modal-backdrop-dark {
+  --bs-backdrop-bg: #34050f4d !important;
+  --bs-backdrop-opacity: 1 !important;
+}
+.modal-backdrop-pink {
+  --bs-backdrop-bg: #ed2f594d !important;
+  --bs-backdrop-opacity: 1 !important;
+}
+.modal-backdrop-green {
+  --bs-backdrop-bg: #11a3774d !important;
+  --bs-backdrop-opacity: 1 !important;
+}
+.modal-backdrop-blue {
+  --bs-backdrop-bg: #0098da4d !important;
+  --bs-backdrop-opacity: 1 !important;
+}
+.btn-trigger {
+  @include app-btn;
+  margin: 50px 0;
+}
+.contact {
+  cursor: pointer;
+  font-size: 12px;
+}
+.order-div {
+  padding: 20px 0;
+  box-shadow: 0 0 2px 2px rgb(214, 210, 210);
+  border-radius: 10px;
+}
+.contact-div {
+  padding: 50px 30px 30px 30px;
+}
+.modal-content {
+  height: fit-content !important;
+}
+.dropdown {
+  display: inline-block;
+  position: relative;
+  outline: none;
+}
+
+/* button */
+.dropbtn {
+  cursor: pointer;
+  transition: 0.35s ease-out;
+}
+
+/* dd content */
+.dropdown .dropdown-content {
+  position: absolute;
+  top: 50%;
+  background-color: #fff;
+  min-width: 100%;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 100000;
+  visibility: hidden;
+  opacity: 0;
+  height: 500px;
+  transition: 0.35s ease-out;
+  margin-top: -100px;
+}
+
+/* show dd content */
+.dropdown:focus .dropdown-content {
+  outline: none;
+  transform: translateY(20px);
+  visibility: visible;
+  opacity: 1;
+}
+// .dropbtn:hover,
+// .dropdown:focus .dropbtn {
+//   background-color: #691692;
+// }
+
+/* mask to close menu by clicking on the button */
+.dropdown .db2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 10;
+  display: none;
+}
+.dropdown:focus .db2 {
+  display: inline-block;
+}
+.dropdown .db2:focus .dropdown-content {
+  outline: none;
+  visibility: hidden;
+  opacity: 0;
+}

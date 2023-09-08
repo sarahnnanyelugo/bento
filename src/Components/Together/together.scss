@@ -1,0 +1,18 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.together-div {
+  background: #e9f8f5;
+  padding: 0 0 200px 0;
+  margin-top: -110px;
+  text-align: center;
+  button {
+    @include app-btn;
+  }
+  .together-inner {
+    padding: 0 20px;
+  }
+  .hand-div {
+    margin-top: -150px;
+  }
+}

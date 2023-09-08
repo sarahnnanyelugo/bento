@@ -1,0 +1,17 @@
+$appcolor: #fac143;
+$btncolor: #4aa182;
+$purple: #5044b2;
+@mixin app-btn {
+  color: #fff;
+  border-radius: 35px;
+  padding: 5px 24px;
+  font-size: 15px;
+  font-family: rebondG-Semi-Bold;
+  background: $btncolor;
+  border: none;
+
+  // &:hover {
+  //   background: #30266b;
+  //   transition: 0.5s ease;
+  // }
+}

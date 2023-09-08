@@ -1,0 +1,33 @@
+@import "../../variables";
+@import "../../shared-styles";
+.gs-btn {
+  // @include get-started-button;
+}
+
+// .modal-backdrop {
+//   --bs-backdrop-bg: red;
+// }
+.modal-backdrop-purple {
+  --bs-backdrop-bg: #4a13b24d !important;
+  --bs-backdrop-opacity: 1 !important;
+}
+.modal-backdrop-dark {
+  --bs-backdrop-bg: #34050f4d !important;
+  --bs-backdrop-opacity: 1 !important;
+}
+.modal-backdrop-pink {
+  --bs-backdrop-bg: #ed2f594d !important;
+  --bs-backdrop-opacity: 1 !important;
+}
+.modal-backdrop-green {
+  --bs-backdrop-bg: #11a3774d !important;
+  --bs-backdrop-opacity: 1 !important;
+}
+.modal-backdrop-blue {
+  --bs-backdrop-bg: #0098da4d !important;
+  --bs-backdrop-opacity: 1 !important;
+}
+.btn-trigger {
+  @include app-btn;
+  margin: 50px 0;
+}

@@ -1,0 +1,13 @@
+@import "../../../variables";
+// @import "../../../shared-styles";
+
+.top-container {
+  .logo-div2 {
+    flex-grow: 1;
+    img {
+    }
+  }
+  button {
+    @include app-btn;
+  }
+}
